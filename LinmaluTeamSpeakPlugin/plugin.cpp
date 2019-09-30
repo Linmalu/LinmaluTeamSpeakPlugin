@@ -67,7 +67,7 @@ const char* ts3plugin_name() {
 	if (!result) {
 		const wchar_t* name = L"Test Plugin";
 		if (wcharToUtf8(name, &result) == -1) {  /* Convert name into UTF-8 encoded result */
-			result = "Test Plugin";  /* Conversion failed, fallback here */
+			result = (char*)"Test Plugin";  /* Conversion failed, fallback here */
 		}
 	}
 	return result;
@@ -280,7 +280,7 @@ int ts3plugin_processCommand(uint64 serverConnectionHandlerID, const char* comma
 	case CMD_JOIN:  /* /test join <channelID> [optionalCannelPassword] */
 		if (param1) {
 			uint64 channelID = (uint64)atoi(param1);
-			char* password = param2 ? param2 : "";
+			const char* password = param2 ? param2 : "";
 			char returnCode[RETURNCODE_BUFSIZE];
 			anyID myID;
 
