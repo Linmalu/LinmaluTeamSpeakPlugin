@@ -328,3 +328,9 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/LinmaluTeamSpeakPlugin/docs
+/LinmaluTeamSpeakPlugin/teamlog
+/LinmaluTeamSpeakPlugin/teamspeak
+/LinmaluTeamSpeakPlugin/plugin_definitions.h
+/LinmaluTeamSpeakPlugin/ts3_functions.h
+/LinmaluTeamSpeakPlugin/readme.txt
