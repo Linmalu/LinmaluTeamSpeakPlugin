@@ -30,4 +30,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\LICENSE">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
 </Project>

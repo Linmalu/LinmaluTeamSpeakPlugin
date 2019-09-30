@@ -26,6 +26,10 @@
     <ClInclude Include="Linmalu.h" />
     <ClInclude Include="plugin.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
+    <None Include="..\LICENSE" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{479384B6-15BF-4736-9486-067FCA5B18A4}</ProjectGuid>
